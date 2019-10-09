@@ -1,0 +1,39 @@
+/* WKND List Up Next Style */
+
+.cmp-list--upnext {
+
+    .cmp-list {
+        padding-left: 0em;
+
+        .cmp-list__item {
+            list-style: none;
+            float:left;
+            margin-bottom:1em;
+            width:100%; 
+        }
+
+        .cmp-list__item-link {
+            border-left: 6px solid @brand-secondary;
+            font-weight: normal;
+            height: 120px;
+
+            &:hover {
+                background: @brand-primary;
+                border-color: @text-color;
+            }
+        }
+
+        .cmp-list__item-title {
+            color: @text-color;
+            padding: 5px;
+            text-transform: uppercase;
+        }
+
+        .cmp-list__item-date {
+            color: @gray-light;
+            font-size: @font-size-xsmall; 
+            padding: 5px;
+            text-transform: uppercase;
+        }
+    }
+}

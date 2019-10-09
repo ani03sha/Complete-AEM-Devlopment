@@ -1,0 +1,26 @@
+/* WKND Text Quote style */
+
+.cmp-text--quote {
+    background-color:@brand-secondary;
+    margin: 1em 0em;
+    padding: 1em 3em;
+
+    blockquote {
+        border: none;
+        font-size: 36px;
+        margin: 0;
+        padding: 14px 0px;
+    }
+
+    u {
+        font-family: @font-family-sans-serif;
+        text-decoration: none;
+
+        &:before {
+            border-top: 2px solid @brand-primary;
+            content: '';
+            display: block;
+            width: 80px;
+        }
+    }
+}

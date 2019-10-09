@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-10-09T13:40:24.969+05:30"
+        cq:lastModified="{Date}2019-10-09T15:55:20.195+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
@@ -19,14 +19,82 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/structure/header"/>
             <responsivegrid
+                cq:styleIds="[1570615610431]"
                 jcr:created="{Date}2019-10-09T13:40:24.963+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-10-09T13:40:24.963+05:30"
+                jcr:lastModified="{Date}2019-10-09T15:45:32.883+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"
-                editable="{Boolean}true">
-                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <image
+                    jcr:created="{Date}2019-10-09T15:45:55.861+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-09T15:45:55.861+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    editable="{Boolean}true"/>
+                <breadcrumb
+                    jcr:created="{Date}2019-10-09T15:47:36.879+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-09T15:47:36.879+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/breadcrumb"/>
+                <title
+                    jcr:created="{Date}2019-10-09T15:48:19.913+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-09T15:48:19.913+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/title"
+                    editable="{Boolean}true"/>
+                <responsivegrid
+                    jcr:created="{Date}2019-10-09T15:49:54.720+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-09T15:49:54.720+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid"
+                    editable="{Boolean}true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="9"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </responsivegrid>
+                <responsivegrid_602416030
+                    jcr:created="{Date}2019-10-09T15:51:26.795+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-09T15:51:26.795+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid"
+                    editable="{Boolean}true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="3"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </responsivegrid_602416030>
             </responsivegrid>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
